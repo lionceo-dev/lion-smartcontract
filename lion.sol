@@ -930,13 +930,13 @@ contract LIONCEO is ERC20, Ownable {
         rewardToken = 0x55d398326f99059fF775485246999027B3197955; // USDT
 
         liquidityFeeOnBuy   = 0;
-        treasuryFeeOnBuy    = 10;
-        rewardsFeeOnBuy     = 10;
+        treasuryFeeOnBuy    = 15;
+        rewardsFeeOnBuy     = 15;
 
         totalBuyFee         = liquidityFeeOnBuy + treasuryFeeOnBuy + rewardsFeeOnBuy;
 
         liquidityFeeOnSell  = 0;
-        treasuryFeeOnSell   = 20;
+        treasuryFeeOnSell   = 30;
         rewardsFeeOnSell    = 0;
 
         totalSellFee        = liquidityFeeOnSell + treasuryFeeOnSell + rewardsFeeOnSell;
